@@ -170,6 +170,19 @@
   0%, 100% { box-shadow: 0 0 0 0 oklch(0.82 0.16 85 / 0.55); }
   50% { box-shadow: 0 0 32px 8px oklch(0.82 0.16 85 / 0.35); }
 }
+@keyframes caret-blink {
+  0%, 45% { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@utility animate-caret-blink {
+  animation: caret-blink 1s steps(1, end) infinite;
+}
+@utility text-royal-glow {
+  color: oklch(0.86 0.09 240);
+  text-shadow: 0 0 26px oklch(0.55 0.2 265 / 0.65);
+}
+
 @utility animate-float-slow {
   animation: float-slow 8s ease-in-out infinite;
 }
