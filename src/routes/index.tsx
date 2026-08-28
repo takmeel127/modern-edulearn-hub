@@ -20,6 +20,8 @@ import heroImg from "../assets/hero-campus.jpg";
 import labImg from "../assets/lab.jpg";
 import studentsImg from "../assets/students.jpg";
 import { SectionHeader } from "../components/site/Section";
+import { Typewriter } from "../components/site/Typewriter";
+
 
 export const Route = createFileRoute("/")({
   component: Home,
