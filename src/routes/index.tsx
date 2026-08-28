@@ -99,8 +99,11 @@ function Home() {
           </div>
           <h1 className="mt-6 font-display text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.02] max-w-4xl">
             Shape Your Future at{" "}
-            <span className="text-gradient-gold">The Brain College</span> Bhakkar
+            <span className="block sm:inline">
+              <Typewriter />
+            </span>
           </h1>
+
           <p className="mt-6 max-w-2xl text-base sm:text-lg text-white/85 leading-relaxed">
             A premier institute of computer education. Certified courses, modern labs, and expert
             faculty preparing students for a bright, digital career.
